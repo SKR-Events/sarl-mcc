@@ -1,0 +1,11 @@
+# Système
+.DS_Store
+Thumbs.db
+
+# Outils locaux
+.claude/
+.impeccable/
+assets/produits/.impeccable/
+
+# Divers
+*.log

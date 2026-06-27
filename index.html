@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SARL MCC — Matériel agricole &amp; solutions durables</title>
+  <meta name="description" content="SARL MCC, revendeur exclusif de la gamme La Littorale sur tout l'Est de la France et spécialiste du matériel agricole d'occasion sélectionné. Parc visible à Sainte-Ménehould (Marne). Demandez un devis." />
+  <meta name="theme-color" content="#165E3D" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SARL MCC — Matériel agricole &amp; solutions durables" />
+  <meta property="og:description" content="Revendeur exclusif de la gamme La Littorale sur l'Est de la France et matériel d'occasion sélectionné. Parc à Sainte-Ménehould (Marne)." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!--
+    POLICE : Poppins est chargée ici via Google Fonts pour un déploiement immédiat.
+    Pour la production finale, vous pouvez l'auto-héberger (fichiers .woff2 + @font-face)
+    afin d'améliorer la performance et la confidentialité.
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================ EN-TÊTE ============================ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="SARL MCC, accueil">
+        <img class="brand-logo-img" src="assets/logo-mcc.png" alt="SARL MCC — Matériel agricole et solutions durables" />
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="produits.html">Produits</a>
+        <a href="#marques">Marques</a>
+        <a href="produits.html">Catalogue</a>
+        <a href="#pourquoi">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:+33707010707" class="phone-link" aria-label="Appeler le 07 07 01 07 07">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z" fill="currentColor"/></svg>
+          <span>07 07 01 07 07</span>
+        </a>
+        <a href="#contact" class="btn btn-accent btn-quote">Demander un devis</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" id="accueil">
+      <!-- Image de fond plein écran (remplaçable par une photo réelle du parc SARL MCC) -->
+      <img class="hero-bg" src="https://images.unsplash.com/photo-1530267981375-f0de937f5f13?w=1800&q=80&auto=format&fit=crop"
+           alt="Tracteur en plein travail dans un champ" fetchpriority="high" />
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content reveal">
+        <h1>Des équipements performants pour une <span class="hl">agriculture durable</span></h1>
+        <p class="lead">Revendeur exclusif de la gamme La Littorale sur tout l'Est de la France, et un large choix de matériel d'occasion sélectionné, visible sur notre parc à Sainte-Ménehould.</p>
+        <div class="hero-actions">
+          <a href="produits.html" class="btn btn-accent">Découvrir le matériel</a>
+          <a href="tel:+33707010707" class="btn btn-hero-ghost btn-call">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z" fill="currentColor"/></svg>
+            Appeler un commercial
+          </a>
+        </div>
+        <ul class="hero-trust">
+          <li class="hero-feat">
+            <span class="feat-badge">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" aria-hidden="true"><circle cx="12" cy="9" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M8.5 13 7.5 21l4.5-2.3L16.5 21l-1-8" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+              Exclusif
+            </span>
+            <span class="feat-title">Gamme La Littorale</span>
+          </li>
+          <li class="hero-feat">
+            <span class="feat-badge">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" aria-hidden="true"><path d="M3 12.5 11.5 4H20v8.5L11.5 21z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="15.5" cy="8.5" r="1.3" fill="currentColor"/></svg>
+              Occasion
+            </span>
+            <span class="feat-title">Matériel sélectionné</span>
+          </li>
+          <li class="hero-feat">
+            <span class="feat-badge">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" stroke="currentColor" stroke-width="1.8"/></svg>
+              Région
+            </span>
+            <span class="feat-title">Est de la France</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ OFFRE / POSITIONNEMENT ============================ -->
+    <section class="offer" id="marques" aria-label="Notre offre">
+      <div class="container offer-grid">
+        <article class="offer-card reveal">
+          <span class="offer-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><circle cx="12" cy="9" r="5" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 13 7.5 21l4.5-2.3L16.5 21l-1-8" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="offer-eyebrow">Exclusivité</span>
+          <h2>Seul revendeur La&nbsp;Littorale de l'Est de la France</h2>
+          <p>La gamme complète, neuve et fiable, que vous ne trouverez que chez nous.</p>
+        </article>
+
+        <article class="offer-card reveal">
+          <span class="offer-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M4 7h7v7H4zM13 4h7v7h-7zM13 13h7v7h-7zM4 16h7v4H4z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="offer-eyebrow">Toutes marques</span>
+          <h2>Un large choix d'occasions, toutes grandes marques</h2>
+          <p>Du matériel d'occasion sélectionné pour sa fiabilité, quelle que soit la marque.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================ CATALOGUE / MATÉRIEL ============================ -->
+    <section class="catalogue section" id="catalogue">
+      <div class="container">
+        <header class="section-head head-split">
+          <div>
+            <h2>Matériel en vedette</h2>
+            <p>Chaque équipement porte une référence. Notez-la, puis demandez un devis ou appelez : un commercial vous rappelle.</p>
+          </div>
+          <a href="#contact" class="btn btn-outline hide-mobile">Demander un devis</a>
+        </header>
+
+        <!--
+          PRODUITS — données d'exemple. Remplacez le visuel (data-img), le nom,
+          la référence (data-ref) et les caractéristiques par votre stock réel.
+        -->
+        <div class="product-grid" id="product-grid">
+
+          <article class="product" data-ref="TR-1804" data-name="Tracteur Littorale TL 1804">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1530267981375-f0de937f5f13?w=700&q=80&auto=format&fit=crop" alt="Tracteur Littorale TL 1804" loading="lazy" />
+              <span class="tag tag-new">Neuf</span>
+            </div>
+            <div class="product-info">
+              <span class="product-ref">Réf. TR-1804</span>
+              <h3>Tracteur Littorale TL 1804</h3>
+              <p class="product-spec">180 ch · 4 roues motrices · cabine climatisée</p>
+              <div class="product-foot">
+                <span class="product-price">98 000 €</span>
+                <button class="btn btn-quote-add" type="button">Ajouter au devis</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-ref="MB-220" data-name="Moissonneuse-batteuse Littorale MB 220">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=700&q=80&auto=format&fit=crop" alt="Moissonneuse-batteuse Littorale MB 220" loading="lazy" />
+              <span class="tag tag-stock">En stock</span>
+            </div>
+            <div class="product-info">
+              <span class="product-ref">Réf. MB-220</span>
+              <h3>Moissonneuse-batteuse MB 220</h3>
+              <p class="product-spec">Coupe 5,5 m · trémie 8 000 L · faible consommation</p>
+              <div class="product-foot">
+                <span class="product-price">Sur demande</span>
+                <button class="btn btn-quote-add" type="button">Ajouter au devis</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-ref="TR-JD6120" data-name="Tracteur John Deere 6120M">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1530267981375-f0de937f5f13?w=700&q=80&auto=format&fit=crop" alt="Tracteur John Deere 6120M" loading="lazy" />
+              <span class="tag tag-occ">Occasion</span>
+            </div>
+            <div class="product-info">
+              <span class="product-ref">Réf. TR-JD6120</span>
+              <h3>Tracteur John Deere 6120M</h3>
+              <p class="product-spec">120 ch · révisé &amp; garanti · 2 100 h</p>
+              <div class="product-foot">
+                <span class="product-price">52 000 €</span>
+                <button class="btn btn-quote-add" type="button">Ajouter au devis</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-ref="IR-P120" data-name="Pivot d'irrigation 120 m">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=700&q=80&auto=format&fit=crop" alt="Pivot d'irrigation 120 m" loading="lazy" />
+              <span class="tag tag-stock">En stock</span>
+            </div>
+            <div class="product-info">
+              <span class="product-ref">Réf. IR-P120</span>
+              <h3>Pivot d'irrigation 120 m</h3>
+              <p class="product-spec">Couvre 45 ha · pilotage automatisé · faible entretien</p>
+              <div class="product-foot">
+                <span class="product-price">Sur demande</span>
+                <button class="btn btn-quote-add" type="button">Ajouter au devis</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-ref="OU-SP4" data-name="Semoir pneumatique 4 rangs">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=700&q=80&auto=format&fit=crop" alt="Semoir pneumatique 4 rangs" loading="lazy" />
+              <span class="tag tag-new">Neuf</span>
+            </div>
+            <div class="product-info">
+              <span class="product-ref">Réf. OU-SP4</span>
+              <h3>Semoir pneumatique 4 rangs</h3>
+              <p class="product-spec">Semis précis · attelage 3 points · réglage rapide</p>
+              <div class="product-foot">
+                <span class="product-price">11 500 €</span>
+                <button class="btn btn-quote-add" type="button">Ajouter au devis</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product" data-ref="OU-CD3" data-name="Charrue à disques 3 corps">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=700&q=80&auto=format&fit=crop" alt="Charrue à disques 3 corps" loading="lazy" />
+              <span class="tag tag-stock">En stock</span>
+            </div>
+            <div class="product-info">
+              <span class="product-ref">Réf. OU-CD3</span>
+              <h3>Charrue à disques 3 corps</h3>
+              <p class="product-spec">Travail du sol intensif · disques renforcés</p>
+              <div class="product-foot">
+                <span class="product-price">4 900 €</span>
+                <button class="btn btn-quote-add" type="button">Ajouter au devis</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="catalogue-more">
+          <a href="produits.html" class="btn btn-primary">Voir tout le matériel</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ POURQUOI NOUS ============================ -->
+    <section class="why section" id="pourquoi">
+      <div class="container why-grid">
+        <div class="why-media reveal">
+          <img src="assets/equipe-sarl-mcc.jpg" alt="L'équipe SARL MCC devant le parc à Sainte-Ménehould" loading="lazy" />
+        </div>
+        <div class="why-copy reveal">
+          <h2>Pourquoi choisir SARL MCC&nbsp;?</h2>
+          <p class="why-intro">Basée à Sainte-Ménehould, dans la Marne, SARL MCC est revendeur exclusif de la gamme La Littorale sur tout l'Est de la France. Nous proposons aussi un large choix de matériel d'occasion, sélectionné avec soin et visible sur notre parc.</p>
+          <ul class="why-list">
+            <li>
+              <span class="why-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M12 3l8 4v5c0 5-3.4 8.3-8 9.5C7.4 20.3 4 17 4 12V7l8-4z" stroke="currentColor" stroke-width="1.7"/><path d="M9 12.2l2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </span>
+              <div><strong>Revendeur exclusif La Littorale</strong><span>Distributeur officiel de la gamme sur l'Est de la France.</span></div>
+            </li>
+            <li>
+              <span class="why-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M3 7h13v8H3z" stroke="currentColor" stroke-width="1.7"/><path d="M16 10h3l2 3v2h-5z" stroke="currentColor" stroke-width="1.7"/><circle cx="7" cy="17" r="1.8" stroke="currentColor" stroke-width="1.7"/><circle cx="18" cy="17" r="1.8" stroke="currentColor" stroke-width="1.7"/></svg>
+              </span>
+              <div><strong>Matériel d'occasion sélectionné</strong><span>Des occasions contrôlées et choisies pour leur fiabilité.</span></div>
+            </li>
+            <li>
+              <span class="why-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><path d="M14.5 4.5a4 4 0 0 0-5 5L4 15v5h5l5.5-5.5a4 4 0 0 0 5-5l-3 3-2.5-2.5 3-3z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+              </span>
+              <div><strong>Parc visible à Sainte-Ménehould</strong><span>Venez voir le matériel disponible sur place.</span></div>
+            </li>
+            <li>
+              <span class="why-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </span>
+              <div><strong>Conseil de proximité</strong><span>Une équipe locale qui connaît votre région et vos besoins.</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ BANDE D'APPEL ============================ -->
+    <section class="cta-band" aria-label="Contact rapide">
+      <div class="container cta-band-inner">
+        <div class="cta-band-text">
+          <h2>Un projet&nbsp;? Parlons-en.</h2>
+          <p>Notre équipe est prête à vous accompagner dans vos projets agricoles.</p>
+        </div>
+        <div class="cta-band-actions">
+          <a href="tel:+33707010707" class="btn btn-light btn-call">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z" fill="currentColor"/></svg>
+            07 07 01 07 07
+          </a>
+          <a href="#contact" class="btn btn-accent">Demander un devis</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ CONTACT ============================ -->
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <h2>Demander un devis</h2>
+          <p>Indiquez les références qui vous intéressent. Un commercial vous recontacte sous 24&nbsp;h ouvrées.</p>
+
+          <ul class="contact-coords">
+            <li>
+              <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.7"/></svg></span>
+              Sainte-Ménehould (51), Marne
+            </li>
+            <li>
+              <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z" fill="currentColor"/></svg></span>
+              <a href="tel:+33707010707">07 07 01 07 07</a>
+            </li>
+            <li>
+              <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.7"/></svg></span>
+              <a href="mailto:contact@sarlmcc.ci">contact@sarlmcc.ci</a>
+            </li>
+            <li>
+              <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+              Lun. – Ven. : 08h – 17h30 · Sam. : 08h – 12h
+            </li>
+          </ul>
+        </div>
+
+        <!--
+          FORMULAIRE — pour recevoir les demandes par e-mail sans serveur :
+          remplacez VOTRE_ID par un identifiant Formspree (https://formspree.io),
+          ou branchez l'action sur votre propre script. Sans configuration,
+          le bouton ouvre le client mail du visiteur (repli mailto).
+        -->
+        <form class="contact-form reveal" id="quote-form"
+              action="https://formspree.io/f/VOTRE_ID" method="POST" novalidate>
+          <div class="field">
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom" name="nom" autocomplete="name" required placeholder="Ex. Jean Dupont" />
+            <small class="error" data-for="nom"></small>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="tel">Téléphone</label>
+              <input type="tel" id="tel" name="telephone" autocomplete="tel" required placeholder="06 ou 07 ..." />
+              <small class="error" data-for="tel"></small>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="vous@exemple.com" />
+              <small class="error" data-for="email"></small>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="refs">Références du matériel</label>
+            <input type="text" id="refs" name="references" required placeholder="Ex. TR-1804, MB-220" />
+            <small class="hint">Ajoutez des références en cliquant sur « Ajouter au devis » <a href="produits.html" class="hint-link">sur un produit</a>.</small>
+            <div class="ref-chips" id="ref-chips" aria-live="polite"></div>
+            <small class="error" data-for="refs"></small>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Précisez votre besoin, votre localité, vos délais..."></textarea>
+            <small class="error" data-for="message"></small>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-block">Envoyer ma demande</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ PIED DE PAGE ============================ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand brand-light">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="30" height="30" fill="none"><path d="M16 3l11 5.5v8.2C27 23.6 22.2 28.3 16 30 9.8 28.3 5 23.6 5 16.7V8.5L16 3z" fill="currentColor"/><path d="M11 17.2l3.4 3.4 7-7" stroke="#FFC107" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="brand-text"><strong>SARL MCC</strong><small>Matériel agricole &amp; solutions durables</small></span>
+        </a>
+        <p>Votre partenaire de confiance pour des équipements agricoles performants et un accompagnement de qualité.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Liens rapides">
+        <h4>Liens rapides</h4>
+        <a href="#accueil">Accueil</a>
+        <a href="produits.html">Produits</a>
+        <a href="#marques">Marques</a>
+        <a href="#pourquoi">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <nav class="footer-col" aria-label="Nos produits">
+        <h4>Nos produits</h4>
+        <a href="#catalogue">Tracteurs</a>
+        <a href="#catalogue">Moissonneuses &amp; récolteuses</a>
+        <a href="#catalogue">Outils &amp; accessoires</a>
+        <a href="#catalogue">Systèmes d'irrigation</a>
+      </nav>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Sainte-Ménehould (51), Marne</p>
+        <p><a href="tel:+33707010707">07 07 01 07 07</a></p>
+        <p><a href="mailto:contact@sarlmcc.ci">contact@sarlmcc.ci</a></p>
+        <p>Lun. – Ven. : 08h – 17h30</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> SARL MCC. Tous droits réservés.</p>
+      <p class="footer-legal"><a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></p>
+    </div>
+  </footer>
+
+  <!-- Bouton d'appel flottant (mobile) -->
+  <a href="tel:+33707010707" class="fab-call" aria-label="Appeler SARL MCC">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.24 1l-2.24 2.2z" fill="currentColor"/></svg>
+  </a>
+
+  <script src="data/produits.js"></script>
+  <script src="produit-card.js"></script>
+  <script src="cart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

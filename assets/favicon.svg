@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 40" role="img" aria-label="Benne agricole">
+  <!-- timon / attelage -->
+  <path d="M2 25h11" fill="none" stroke="#165E3D" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="3" cy="25" r="2.2" fill="none" stroke="#165E3D" stroke-width="2"/>
+  <!-- benne basculante (corps jaune) -->
+  <path d="M11 9 H44 L40 25 H14 Z" fill="#FFC107" stroke="#165E3D" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- rebord supérieur -->
+  <path d="M11 9 H44" fill="none" stroke="#165E3D" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- nervure -->
+  <path d="M22 12 L20 22 M30 12 L29 22" stroke="#165E3D" stroke-width="1.4" stroke-linecap="round" opacity=".55"/>
+  <!-- châssis -->
+  <path d="M13 25 H41" stroke="#165E3D" stroke-width="2" stroke-linecap="round"/>
+  <!-- roues -->
+  <circle cx="19" cy="31" r="5.4" fill="#165E3D"/>
+  <circle cx="19" cy="31" r="1.8" fill="#FFC107"/>
+  <circle cx="36" cy="31" r="5.4" fill="#165E3D"/>
+  <circle cx="36" cy="31" r="1.8" fill="#FFC107"/>
+</svg>

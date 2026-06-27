@@ -1,0 +1,60 @@
+window.MCC_PRODUITS = {
+  "produits": [
+    {
+      "id": "benne-agricole",
+      "nom": "Benne agricole La Littorale",
+      "reference": "BEN-01",
+      "prix": "38 500 €",
+      "etat": "neuf",
+      "categorie": "remorques",
+      "vedette": true,
+      "description": "Benne TP basculante · 3 essieux · forte charge",
+      "images": [
+        "assets/produits/benne-agricole.jpg",
+        "assets/produits/benne-agricole-2.jpg"
+      ]
+    },
+    {
+      "id": "tonne-a-lisier",
+      "nom": "Tonne à lisier Fliegl 18 000 L",
+      "reference": "TON-01",
+      "prix": "33 000 €",
+      "etat": "occasion",
+      "categorie": "remorques",
+      "vedette": true,
+      "description": "Citerne 18 000 L · épandage du lisier",
+      "images": [
+        "assets/produits/tonne-a-lisier.jpg",
+        "assets/produits/tonne-a-lisier-2.jpg"
+      ]
+    },
+    {
+      "id": "broyeur-axe-horizontal",
+      "nom": "Broyeur à axe horizontal Fliegl",
+      "reference": "BRO-01",
+      "prix": "4 800 €",
+      "etat": "occasion",
+      "categorie": "outils",
+      "vedette": true,
+      "description": "Broyeur d'accotement · attelage 3 points",
+      "images": [
+        "assets/produits/broyeur-axe-horizontal.jpg"
+      ]
+    },
+    {
+      "id": "plateau-fourrager",
+      "nom": "Plateau fourrager",
+      "reference": "PLA-01",
+      "prix": "9 500 €",
+      "etat": "occasion",
+      "categorie": "remorques",
+      "vedette": true,
+      "description": "Plateau 3 essieux · transport fourrage & balles",
+      "images": [
+        "assets/produits/plateau-fourrager.jpg",
+        "assets/produits/plateau-fourrager-2.jpg"
+      ]
+    }
+  ]
+}
+;
