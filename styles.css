@@ -144,7 +144,8 @@ p { margin: 0; }
 /* Image de fond pleine largeur */
 .hero-bg {
   position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; z-index: 0;
+  object-fit: cover; object-position: 50% 45%; /* tracteur et benne placés vers le haut */
+  z-index: 0;
 }
 /* Voile sombre pour la lisibilité du texte par-dessus l'image */
 .hero-overlay {
@@ -153,8 +154,8 @@ p { margin: 0; }
      fait ressortir le titre, l'accroche et les boutons. Léger renfort
      au centre pour la lisibilité du texte. */
   background:
-    radial-gradient(120% 90% at 50% 48%, rgba(16,40,30,.45) 0%, transparent 70%),
-    linear-gradient(180deg, rgba(16,63,42,.62) 0%, rgba(22,94,61,.5) 45%, rgba(16,63,42,.7) 100%);
+    radial-gradient(100% 75% at 50% 42%, rgba(8,26,18,.32) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(16,63,42,.3) 0%, rgba(22,94,61,.22) 50%, rgba(16,63,42,.32) 100%);
 }
 .hero-content {
   position: relative; z-index: 2; color: #fff;
@@ -168,9 +169,10 @@ p { margin: 0; }
   color: #fff; padding: .45rem 1rem; border-radius: 999px; backdrop-filter: blur(4px);
   margin-bottom: 1.2rem;
 }
-.hero h1 { font-size: clamp(2.3rem, 5.2vw, 3.75rem); font-weight: 800; color: #fff; text-shadow: 0 2px 20px rgba(0,0,0,.25); }
+.hero h1 { font-size: clamp(2.3rem, 5.2vw, 3.75rem); font-weight: 800; color: #fff; text-shadow: 0 2px 18px rgba(0,0,0,.45); }
 .hero h1 .hl { color: var(--accent); }
-.hero .lead { margin: 1.2rem auto 0; font-size: 1.12rem; color: rgba(255,255,255,.9); max-width: 56ch; }
+.hero .lead { margin: 1.2rem auto 0; font-size: 1.12rem; color: #fff; max-width: 56ch; text-shadow: 0 1px 12px rgba(0,0,0,.5); }
+.hero-feat .feat-title { text-shadow: 0 1px 10px rgba(0,0,0,.5); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.9rem; justify-content: center; }
 .hero-trust { list-style: none; display: flex; flex-wrap: nowrap; gap: 1.2rem; padding: 0; margin: 2.4rem 0 0; justify-content: center; }
 .hero-feat { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: .55rem; text-align: center; }
@@ -456,7 +458,7 @@ p { margin: 0; }
 
 /* ---------------- Pied de page ---------------- */
 .site-footer { background: var(--green-900); color: rgba(255,255,255,.78); padding-top: clamp(3rem, 6vw, 4.5rem); margin-top: 0; }
-.footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1.3fr 1.3fr; gap: 2.4rem; padding-bottom: 2.6rem; }
+.footer-grid { display: grid; grid-template-columns: 1.8fr 1fr 1.3fr; gap: 2.4rem; padding-bottom: 2.6rem; }
 .brand-light { color: #fff; }
 .brand-light .brand-text small { color: rgba(255,255,255,.6); }
 .footer-brand p { margin-top: 1rem; font-size: .9rem; max-width: 34ch; }
